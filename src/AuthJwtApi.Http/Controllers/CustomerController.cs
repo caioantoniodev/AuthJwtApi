@@ -9,7 +9,6 @@ namespace AuthJwtApi.Http.Controllers;
 [Route("/v1/customers")]
 public class CustomerController : ControllerBase
 {
-    private static List<Customer> customers = new List<Customer>();
     private readonly ITokenServicePortIn _tokenService;
     private readonly ICustomerServicePortIn _customerServicePortIn;
 
