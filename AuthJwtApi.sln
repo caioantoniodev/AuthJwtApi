@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthJwtApi.Http", "src\AuthJwtApi.Http\AuthJwtApi.Http.csproj", "{0B03ABCD-4ED4-4AE7-B627-57AAA01A8A13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthJwtApi.Application", "src\AuthJwtApi.Application\AuthJwtApi.Application.csproj", "{2E0FB368-38D0-4399-A733-49A8996B9330}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthJwtApi.Infra", "src\AuthJwtApi.Infra\AuthJwtApi.Infra.csproj", "{62C8B01D-2B45-44F6-A23A-E88C449810E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B03ABCD-4ED4-4AE7-B627-57AAA01A8A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B03ABCD-4ED4-4AE7-B627-57AAA01A8A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B03ABCD-4ED4-4AE7-B627-57AAA01A8A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B03ABCD-4ED4-4AE7-B627-57AAA01A8A13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E0FB368-38D0-4399-A733-49A8996B9330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E0FB368-38D0-4399-A733-49A8996B9330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E0FB368-38D0-4399-A733-49A8996B9330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E0FB368-38D0-4399-A733-49A8996B9330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62C8B01D-2B45-44F6-A23A-E88C449810E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C8B01D-2B45-44F6-A23A-E88C449810E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C8B01D-2B45-44F6-A23A-E88C449810E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C8B01D-2B45-44F6-A23A-E88C449810E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
